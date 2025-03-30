@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 1.4%;
+    left: 0.1%;
+}
+P{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 4.4%;
+    left: 6.2%;
+    font-size: 24px;
+}
+.zero{
+    position: absolute;
+    top: 6%;
+    right: 4.2%;
+}
+.zero a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255); /* Set text color */
+    font-weight: bold; /* Makes text bold */
+    margin: 0 35px; /* Adds spacing between links */
+    font-size: 18px; /* Adjust font size */
+}
+.zero a:hover {
+    color: red; /* Change color on hover */
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/computer-programing-coding-web-development-with-isometric-laptop-displaying-futuristic-ui_375605-384.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+  .arsenal-sc-bold {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .space-grotesk-bold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .side {
+    font-size: 36px;
+    color: #FF6F61;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(255, 0, 98, 0.8);
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+.side{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 25%;
+    right: 22%;
+}
+p.practical {
+    
+    font-family: 'Rowdies', sans-serif;
+    font-size: 1.2rem;
+    color: #ddd;
+    top: 36%;
+    text-align: justify;
+    position: absolute;
+    width: 45%;
+    left: 50%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}

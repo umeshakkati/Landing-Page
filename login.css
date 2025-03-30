@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://img.freepik.com/premium-vector/computer-programing-coding-web-development-with-isometric-laptop-displaying-futuristic-ui_375605-384.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    color: white;
+    top: 55%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Heading style */
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Input styling */
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+.btn {
+    width: 100%;
+    background: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+
+.once {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.back{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #FF6F61;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+.back:hover {
+    color: #2C1A40;
+    background: #FF6F61;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(255, 0, 98, 0.7);
+}
